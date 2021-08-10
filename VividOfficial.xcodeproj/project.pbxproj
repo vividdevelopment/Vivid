@@ -20,6 +20,7 @@
 		3A846A7326C2306100DF8B5D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A846A7226C2306100DF8B5D /* ExploreViewController.swift */; };
 		3A846A7526C2309800DF8B5D /* ExploreViewControllerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A846A7426C2309800DF8B5D /* ExploreViewControllerDelegates.swift */; };
 		3A846A7726C230A600DF8B5D /* ExploreViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A846A7626C230A600DF8B5D /* ExploreViewControllerHandlers.swift */; };
+		3A846A7B26C238F400DF8B5D /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A846A7A26C238F400DF8B5D /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3A846A7226C2306100DF8B5D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		3A846A7426C2309800DF8B5D /* ExploreViewControllerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewControllerDelegates.swift; sourceTree = "<group>"; };
 		3A846A7626C230A600DF8B5D /* ExploreViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewControllerHandlers.swift; sourceTree = "<group>"; };
+		3A846A7A26C238F400DF8B5D /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		3A846A4C26C213A400DF8B5D /* VividOfficial */ = {
 			isa = PBXGroup;
 			children = (
+				3A846A7826C238AE00DF8B5D /* Cells */,
 				3A846A6C26C2250400DF8B5D /* Extensions */,
 				3A846A6326C213CB00DF8B5D /* Storyboards */,
 				3A846A6226C213BF00DF8B5D /* Views */,
@@ -134,6 +137,14 @@
 				3A846A7626C230A600DF8B5D /* ExploreViewControllerHandlers.swift */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		3A846A7826C238AE00DF8B5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A846A7A26C238F400DF8B5D /* PostCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				3A846A4E26C213A400DF8B5D /* AppDelegate.swift in Sources */,
 				3A846A7326C2306100DF8B5D /* ExploreViewController.swift in Sources */,
 				3A846A5026C213A400DF8B5D /* SceneDelegate.swift in Sources */,
+				3A846A7B26C238F400DF8B5D /* PostCollectionViewCell.swift in Sources */,
 				3A846A6726C2247E00DF8B5D /* HomeViewController.swift in Sources */,
 				3A846A6E26C2251F00DF8B5D /* ViewControllerExtensions.swift in Sources */,
 			);
