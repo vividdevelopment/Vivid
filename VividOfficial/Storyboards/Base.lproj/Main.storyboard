@@ -28,12 +28,12 @@
             </objects>
             <point key="canvasLocation" x="-1241" y="-1191"/>
         </scene>
-        <!--Explore-->
+        <!--Upload-->
         <scene sceneID="Ctc-TB-wvS">
             <objects>
                 <navigationController id="xDq-VR-n7p" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Explore" id="Xcj-Wf-jAA">
-                        <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="medium"/>
+                    <tabBarItem key="tabBarItem" title="Upload" id="Xcj-Wf-jAA">
+                        <imageReference key="image" image="record.circle" catalog="system" symbolScale="medium" renderingMode="template"/>
                         <color key="badgeColor" systemColor="secondaryLabelColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ywQ-UO-pae">
@@ -48,12 +48,12 @@
             </objects>
             <point key="canvasLocation" x="-29" y="-1191"/>
         </scene>
-        <!--Profile-->
+        <!--Explore-->
         <scene sceneID="siZ-KL-otP">
             <objects>
                 <navigationController id="Yna-Gb-n6g" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="sQV-Op-fR4">
-                        <imageReference key="image" image="person" catalog="system" symbolScale="medium" renderingMode="template"/>
+                    <tabBarItem key="tabBarItem" title="Explore" id="sQV-Op-fR4">
+                        <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="medium" renderingMode="template"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fm5-Tn-CZE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -81,7 +81,7 @@
                     <connections>
                         <segue destination="KQO-1u-LSy" kind="relationship" relationship="viewControllers" id="K3j-3t-dl4"/>
                         <segue destination="xDq-VR-n7p" kind="relationship" relationship="viewControllers" id="ktY-RU-SUR"/>
-                        <segue destination="Yna-Gb-n6g" kind="relationship" relationship="viewControllers" id="xKg-1P-6Un"/>
+                        <segue destination="Yna-Gb-n6g" kind="relationship" relationship="viewControllers" id="X05-aH-GDz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ic9-mx-FFs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="-1242" y="-350"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore View Controller-->
         <scene sceneID="bFx-P0-EpA">
             <objects>
-                <viewController id="bsG-5E-a4x" sceneMemberID="viewController">
+                <viewController id="bsG-5E-a4x" customClass="ExploreViewController" customModule="VividOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tlZ-KG-2bL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="-29" y="-350"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore View Controller-->
         <scene sceneID="KAq-un-xEf">
             <objects>
-                <viewController id="ZN1-2k-vjK" sceneMemberID="viewController">
+                <viewController id="ZN1-2k-vjK" customClass="ExploreViewController" customModule="VividOfficial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eq2-AT-kJo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="record.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

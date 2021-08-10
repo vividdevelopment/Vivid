@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  ExploreViewController.swift
 //  VividOfficial
 //
 //  Created by Anton Horvath on 8/9/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class ExploreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +18,5 @@ class HomeViewController: UIViewController {
         super.viewSafeAreaInsetsDidChange()
         self.setupHeader()
     }
-    
+
 }
